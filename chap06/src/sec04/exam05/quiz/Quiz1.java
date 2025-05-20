@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Quiz1 {
 //  Quiz
-//	클래스 Calculator에 전달된 begin부터 end사이 정수 중 
+//	클래스 Calculator에 전달된 begin부터 end까지 정수 중 
 //	짝수의 합을 반환하는 getEvenTotal() 메소드를 구현하시오.
 //
 //	[입력]
@@ -12,7 +12,6 @@ public class Quiz1 {
 //
 //	[출력]
 //	2550
-	
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

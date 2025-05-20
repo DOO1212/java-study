@@ -1,33 +1,13 @@
 package sec04.exam05.quiz;
 
 public class Calculator {
-	
-//	메소드
-
 	int getEvenTotal(int begin, int end) {
 		int sum = 0;
-		for (int i = begin; i <= end; i++) {
+		for (int i = begin; i <= end ; i++) {
 			if (i % 2 == 0) {
-				sum = sum + i;
+				sum += i;
 			}
 		}
 		return sum;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }

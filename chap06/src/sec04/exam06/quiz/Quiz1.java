@@ -1,9 +1,8 @@
-package sec04.exam05.quiz;
+package sec04.exam06.quiz;
 
 import java.util.Scanner;
 
-public class quiz3 {
-	
+public class Quiz1 {
 //	Quiz
 //	실행 클래스에서 정수값 2개, 실수값 2개를 입력받아 
 //	두수의 합을 출력할 수 있도록 Adder 클래스에 add() 메소드를 추가하시오.
@@ -25,10 +24,8 @@ public class quiz3 {
 		double n4 = sc.nextDouble();
 		
 		Adder adder = new Adder();
-		adder.add(n1,n2);
-		adder.add(n3,n4);
+		adder.add(n1, n2);
+		adder.add(n3, n4);
 	}
 	
-	
-
 }
