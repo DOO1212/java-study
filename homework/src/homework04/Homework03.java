@@ -6,10 +6,7 @@ public class Homework03 {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
-		
-
-		
+		Scanner scan = new Scanner(System.in);		
 		System.out.println("3 이상의 홀수를 입력하세요");
 		int a = scan.nextInt();
 		
@@ -20,12 +17,17 @@ public class Homework03 {
 		
 		int[] arr = new int[a];
 		
-		
-		System.out.println("홀수 한개를 입력하세요");
-		int first = scan.nextInt();
-		
 		for (int i = 0; i < arr.length; i++) {
 			
+			if (i < arr.length/2+1) {
+				arr[i] = i + 1;
+			} else {
+				arr[i] = arr.length - i;
+			}
+		}
+		
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
 		}
 		
 		
