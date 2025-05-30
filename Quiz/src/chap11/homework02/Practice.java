@@ -1,4 +1,4 @@
-package string.string02;
+package chap11.homework02;
 
 public class Practice {
 	

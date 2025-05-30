@@ -1,4 +1,4 @@
-package string.string06;
+package chap11.homework06;
 
 import java.util.Scanner;
 
@@ -13,28 +13,27 @@ public class Run {
 		String a = scanner.nextLine();		
 		
 		if (sentence.contains(a)) {
+			
 			String[] words = sentence.split(" ");
-			for (int i = 0; i < words.length; i++) {
-				if (words[i].equals(a)) {
-					if (i == words.length - 1) {
-						System.out.println("마지막 단어입니다");
-					} else {
-						System.out.print(words[i] + " 다음 단어 : ");
-						System.out.println(words[i+1]);
-					}
+			
+				for (int i = 0; i < words.length; i++) {					
+					if (words[i].equals(a)) {						
+						if (i == words.length-1) {							
+							System.out.println("마지막 단어입니다");
+						} else {
+							System.out.println(words[i] + "다음 단어 : " + words[i+1]);
+						}
+					break;
 				}
-			}
 		}
+								
+
+
 		
 		
 		
 		
-		
-		
-		
-		
-		
-		
+		}		
 		
 
 	}

@@ -1,4 +1,4 @@
-package string.string05;
+package chap11.homework05;
 
 import java.util.Scanner;
 
