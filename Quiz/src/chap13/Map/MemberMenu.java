@@ -1,9 +1,13 @@
 package chap13.Map;
 
+import java.util.Scanner;
+
 public class MemberMenu {
 	
 	// Scanner 객체 생성
+	private Scanner sc  = new Scanner(System.in);
 	// MemberController 객체 생성
+	private MemberController mc = new MemberController(); 
 	
 	public void mainMenu() {
 		// 1. 종료 전까지 메뉴 화면 반복 실행

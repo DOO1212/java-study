@@ -28,12 +28,11 @@ public class MemberController {
 		// 4. 그 외의 모든 상황에서는 null 반환
 		if (map.containsKey(id)) {
 			Member m = map.get(id);
-			if (m.getPassword().equals(password)) {
-				return m.getName();
-			} else {
-				return null;
-			}
+				if (m.getPassword().equals(password)) {
+					return m.getName();
+				}
 		}
+			return null;
 	}
 	
 	public boolean changePassword(String id, String oldPw, String newPw) {
